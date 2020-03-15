@@ -1,0 +1,24 @@
+{
+  "name": "fbapi-endpoint",
+  "version": "1.0.0",
+  "description": "fb api endpoint",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/hirzi/fbapi-endpoint.git"
+  },
+  "keywords": [
+    "fb",
+    "graph-api",
+    "feed"
+  ],
+  "author": "hirzi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/hirzi/fbapi-endpoint/issues"
+  },
+  "homepage": "https://gitlab.com/hirzi/fbapi-endpoint#readme"
+}
