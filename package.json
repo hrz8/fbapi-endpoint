@@ -4,7 +4,8 @@
   "description": "fb api endpoint",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,14 @@
   "bugs": {
     "url": "https://gitlab.com/hirzi/fbapi-endpoint/issues"
   },
-  "homepage": "https://gitlab.com/hirzi/fbapi-endpoint#readme"
+  "homepage": "https://gitlab.com/hirzi/fbapi-endpoint#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
 }
