@@ -16,6 +16,7 @@ app.get('/', async (req, res) => {
     try {
         const result = await axios.get(`https://graph.facebook.com/v6.0/${user_id}/feed?fields=attachments{description,title,unshimmed_url,media_type,type},created_time,type,id&limit=${limit}&offset=${offset}&access_token=${access_token}`);
         res.json({
+            status: 'success',
             data: result.data.data
         });
 
@@ -28,3 +29,5 @@ app.get('/', async (req, res) => {
 app.listen(PORT, () => {
     console.log(`server is running on port: ${PORT}`);
 });
+
+module.exports = app;
