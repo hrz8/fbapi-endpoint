@@ -36,11 +36,18 @@ If you don't specify the page of feed, it will be `0` by default which mean the 
 http://localhost:5000?page=10
 ```
 
+You can combine the `limit` and `page` query string
+
+``` bash
+# Accessing the endpoint api server with query limit
+http://localhost:5000?limit=10&page=10
+```
+
 ### Test
 
 ``` bash
 # Run the api test
-$ npm run test
+$ npm test
 ```
 
 ## App Info
